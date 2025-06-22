@@ -3,8 +3,8 @@ source "https://rubygems.org"
 # Jekyll - GitHub Pages compatible version
 # gem "jekyll", "~> 4.3"  # Commented out when using github-pages gem
 
-# GitHub Pages
-gem "github-pages", group: :jekyll_plugins
+# GitHub Pages - using latest version 232
+gem "github-pages", "~> 232", group: :jekyll_plugins
 
 # Theme - using minimal-mistakes for enterprise features
 # gem "minimal-mistakes-jekyll", "~> 4.26"  # Commented out when using remote_theme
@@ -47,9 +47,7 @@ end
 # gem "rouge", "~> 4.3"
 # gem "liquid", "~> 4.0"
 
-# Pin dependencies to work with Ruby 3.0
-gem "securerandom", "~> 0.3.0"
-gem "activesupport", "~> 7.0.0"
+# Let github-pages manage these dependencies
 
 # Windows and JRuby compatibility
 platforms :mingw, :x64_mingw, :mswin, :jruby do

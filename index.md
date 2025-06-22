@@ -1,6 +1,5 @@
 ---
-layout: single
-classes: wide
+layout: home
 title: "AI-Native Software Development Lifecycle"
 description: "A comprehensive guide to AI-powered software development, featuring detailed comparisons of AI coding assistants and enterprise implementation strategies"
 permalink: /

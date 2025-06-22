@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby-version: ['3.0']  # GitHub Pages uses Ruby 3.0
+        ruby-version: ['3.3']  # GitHub Pages uses Ruby 3.3.4
 
     steps:
     - uses: actions/checkout@v4
@@ -57,7 +57,7 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0'
+        ruby-version: '3.3'
         bundler-cache: true
         
     - name: Build site
