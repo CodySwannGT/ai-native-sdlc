@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-# Jekyll - latest stable version
-gem "jekyll", "~> 4.3.3"
+# Jekyll - latest version
+gem "jekyll", "~> 4.3"
 
 # Theme - using minimal-mistakes for enterprise features
 gem "minimal-mistakes-jekyll", "~> 4.26"
@@ -28,15 +28,12 @@ group :jekyll_plugins do
   # gem "jekyll-responsive-image", "~> 1.6" # Requires ImageMagick
 end
 
-# GitHub Pages deployment - commented out for now as it conflicts with Jekyll 4.3
-# gem "github-pages", "~> 231", group: :jekyll_plugins
-
 # Development and testing
 group :development, :test do
   gem "webrick", "~> 1.8"
   gem "html-proofer", "~> 5.0"
   gem "rake", "~> 13.2"
-  gem "rubocop", "~> 1.57.0"
+  gem "rubocop", "~> 1.57"
   gem "rubocop-jekyll", "~> 0.14"
   gem "bundler-audit", "~> 0.9"
 end

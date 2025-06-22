@@ -61,8 +61,8 @@ exclude:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 10
-paginate_path: /page:num/
+# paginate: 10  # Disabled for jekyll-paginate-v2
+# paginate_path: /page:num/  # Disabled for jekyll-paginate-v2
 timezone: America/New_York
 
 # Plugins
