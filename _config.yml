@@ -8,7 +8,7 @@ description: >-
 url: "https://CodySwannGt.github.io"
 baseurl: "/ai-native-sdlc"
 repository: "CodySwannGt/ai-native-sdlc"
-logo: "/ai-native-sdlc/assets/images/logo.png"
+logo: "/assets/images/logo.png"
 
 # Theme
 # theme: minimal-mistakes-jekyll  # Comment out for GitHub Pages
@@ -18,7 +18,7 @@ minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "di
 # Site Author
 author:
   name: "Cody Swann"
-  avatar: "/ai-native-sdlc/assets/images/avatar.jpg"
+  avatar: "/assets/images/avatar.jpg"
   bio: "AI-Native Development Researcher"
   location: "United States"
   links:
