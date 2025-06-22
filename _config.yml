@@ -152,6 +152,18 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: "implementation"
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
 
 # Archives
 category_archive:
@@ -266,16 +278,3 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# Front Matter Defaults for Collections
-defaults:
-  - scope:
-      path: ""
-      type: docs
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "docs"
