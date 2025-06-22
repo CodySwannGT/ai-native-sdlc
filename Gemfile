@@ -3,8 +3,11 @@ source "https://rubygems.org"
 # Jekyll - latest version
 gem "jekyll", "~> 4.3"
 
+# GitHub Pages
+gem "github-pages", group: :jekyll_plugins
+
 # Theme - using minimal-mistakes for enterprise features
-gem "minimal-mistakes-jekyll", "~> 4.26"
+# gem "minimal-mistakes-jekyll", "~> 4.26"  # Commented out when using remote_theme
 
 # Core plugins
 group :jekyll_plugins do

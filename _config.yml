@@ -11,7 +11,8 @@ repository: "CodySwannGt/ai-native-sdlc"
 logo: "/assets/images/logo.png"
 
 # Theme
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll  # Comment out for GitHub Pages
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Author
@@ -60,13 +61,14 @@ exclude:
   - tmp
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:title/
 # paginate: 10  # Disabled for jekyll-paginate-v2
 # paginate_path: /page:num/  # Disabled for jekyll-paginate-v2
 timezone: America/New_York
 
 # Plugins
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
