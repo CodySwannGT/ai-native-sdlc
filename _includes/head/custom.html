@@ -1,0 +1,52 @@
+<!-- Mermaid diagram support -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>
+  // Initialize Mermaid
+  mermaid.initialize({ 
+    startOnLoad: true,
+    theme: 'default',
+    themeVariables: {
+      primaryColor: '#f9f',
+      primaryTextColor: '#333',
+      primaryBorderColor: '#333',
+      lineColor: '#333',
+      secondaryColor: '#9f9',
+      tertiaryColor: '#ff9'
+    }
+  });
+  
+  // Handle dynamically loaded content
+  document.addEventListener('DOMContentLoaded', function() {
+    // Convert code blocks with mermaid language to mermaid divs
+    document.querySelectorAll('pre code.language-mermaid').forEach(function(element) {
+      // Get the mermaid code
+      var mermaidCode = element.textContent;
+      
+      // Create a new div for mermaid
+      var mermaidDiv = document.createElement('div');
+      mermaidDiv.className = 'mermaid';
+      mermaidDiv.textContent = mermaidCode;
+      
+      // Replace the pre element with the mermaid div
+      var preElement = element.parentElement;
+      preElement.parentElement.replaceChild(mermaidDiv, preElement);
+    });
+    
+    // Re-initialize mermaid to render the new divs
+    mermaid.init();
+  });
+</script>
+
+<!-- Custom styles for Mermaid diagrams -->
+<style>
+  .mermaid {
+    text-align: center;
+    margin: 2em 0;
+  }
+  
+  /* Style for Mermaid container */
+  .mermaid svg {
+    max-width: 100%;
+    height: auto;
+  }
+</style>

@@ -7,3 +7,27 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Custom styles for Mermaid diagrams
+.mermaid {
+  text-align: center;
+  margin: 2em auto;
+  max-width: 100%;
+  
+  svg {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+// Ensure diagrams are responsive
+@media (max-width: 768px) {
+  .mermaid {
+    font-size: 0.9em;
+    
+    svg {
+      max-width: 100%;
+      overflow-x: auto;
+    }
+  }
+}

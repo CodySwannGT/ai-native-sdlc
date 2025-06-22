@@ -6,7 +6,7 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: {{ site.baseurl }}/assets/images/ai-development-hero.jpg
+  overlay_image: /assets/images/ai-development-hero.jpg
   actions:
     - label: "Get Started"
       url: "{{ site.baseurl }}/sdlc/"
@@ -14,28 +14,28 @@ header:
       url: "{{ site.baseurl }}/ai-tools/coding-assistants/"
 # Remove excerpt to avoid Jekyll 3.9.5 yaml_file? bug
 feature_row:
-  - image_path: {{ site.baseurl }}/assets/images/ai-tools-feature.jpg
+  - image_path: /assets/images/ai-tools-feature.jpg
     alt: "AI Tools Comparison"
     title: "45+ AI Coding Assistants Compared"
     excerpt: "Comprehensive analysis of AI development tools including features, pricing, and capabilities."
     url: "{{ site.baseurl }}/ai-tools/coding-assistants/"
     btn_label: "View Comparison"
     btn_class: "btn--primary"
-  - image_path: {{ site.baseurl }}/assets/images/sdlc-feature.jpg
+  - image_path: /assets/images/sdlc-feature.jpg
     alt: "AI-Native SDLC"
     title: "Complete SDLC Methodology"
     excerpt: "End-to-end AI-powered development lifecycle from requirements to production monitoring."
     url: "{{ site.baseurl }}/sdlc/"
     btn_label: "Explore SDLC"
     btn_class: "btn--primary"
-  - image_path: {{ site.baseurl }}/assets/images/governance-feature.jpg
+  - image_path: /assets/images/governance-feature.jpg
     title: "Enterprise Governance"
     excerpt: "Security, compliance, and risk management frameworks for AI-driven development."
     url: "{{ site.baseurl }}/governance/"
     btn_label: "Learn More"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: {{ site.baseurl }}/assets/images/metrics-feature.jpg
+  - image_path: /assets/images/metrics-feature.jpg
     alt: "Success Metrics"
     title: "Proven ROI Framework"
     excerpt: "Measure success with comprehensive metrics showing 200-400% productivity improvements and detailed ROI calculations for AI adoption."
@@ -43,7 +43,7 @@ feature_row2:
     btn_label: "View Metrics"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: {{ site.baseurl }}/assets/images/implementation-feature.jpg
+  - image_path: /assets/images/implementation-feature.jpg
     alt: "Implementation Guide"
     title: "Ready-to-Use Implementation Guide"
     excerpt: "Step-by-step guidance for adopting AI-native development practices in your organization, including phased rollout strategies and change management."
@@ -51,7 +51,7 @@ feature_row3:
     btn_label: "Start Implementation"
     btn_class: "btn--primary"
 feature_row4:
-  - image_path: {{ site.baseurl }}/assets/images/tech-stack-feature.jpg
+  - image_path: /assets/images/tech-stack-feature.jpg
     alt: "Technology Stack"
     title: "Curated Technology Recommendations"
     excerpt: "Expert-selected tools and platforms for building a modern AI-native development environment, from cloud infrastructure to testing frameworks."
