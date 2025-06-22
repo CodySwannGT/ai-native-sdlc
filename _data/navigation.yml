@@ -1,0 +1,153 @@
+# Main navigation
+main:
+  - title: "AI Tools"
+    url: /ai-tools/
+  - title: "SDLC"
+    url: /sdlc/
+  - title: "Governance"
+    url: /governance/
+  - title: "Implementation"
+    url: /implementation/
+  - title: "About"
+    url: /about/
+  - title: "Search"
+    url: /search/
+
+# AI Tools sidebar
+ai-tools:
+  - title: "AI Tools Overview"
+    url: /ai-tools/
+  - title: "Coding Assistants"
+    url: /ai-tools/coding-assistants/
+    children:
+      - title: "Comparison Table"
+        url: /ai-tools/coding-assistants/#comparison-table
+      - title: "Selection Guide"
+        url: /ai-tools/coding-assistants/#selection-guide
+  - title: "Transcription Tools"
+    url: /ai-tools/transcription/
+  - title: "Design Software"
+    url: /ai-tools/design-software/
+
+# SDLC sidebar
+sdlc:
+  - title: "SDLC Overview"
+    url: /sdlc/
+  - title: "Phase 1: Requirements"
+    url: /sdlc/requirements/
+    children:
+      - title: "IPM & Strategy"
+        url: /sdlc/requirements/#ipm-strategy
+      - title: "Documentation Generation"
+        url: /sdlc/requirements/#documentation-generation
+      - title: "Gap Analysis"
+        url: /sdlc/requirements/#gap-analysis
+  - title: "Phase 1.5: Design"
+    url: /sdlc/design/
+  - title: "Phase 3: Development"
+    url: /sdlc/development/
+    children:
+      - title: "Planning"
+        url: /sdlc/development/#planning
+      - title: "Implementation"
+        url: /sdlc/development/#implementation
+      - title: "AI Guardrails"
+        url: /sdlc/development/#guardrails
+  - title: "Phase 4: Deployment"
+    url: /sdlc/deployment/
+    children:
+      - title: "CI/CD Pipeline"
+        url: /sdlc/deployment/#cicd
+      - title: "Monitoring"
+        url: /sdlc/deployment/#monitoring
+
+# Governance sidebar
+governance:
+  - title: "Governance Overview"
+    url: /governance/
+  - title: "Security & Privacy"
+    url: /governance/security/
+    children:
+      - title: "Data Classification"
+        url: /governance/security/#data-classification
+      - title: "Client Code Protection"
+        url: /governance/security/#client-protection
+      - title: "Technical Safeguards"
+        url: /governance/security/#technical-safeguards
+  - title: "Compliance & Audit"
+    url: /governance/compliance/
+    children:
+      - title: "Audit Logging"
+        url: /governance/compliance/#audit-logging
+      - title: "Framework Integration"
+        url: /governance/compliance/#framework-integration
+      - title: "Retention Policies"
+        url: /governance/compliance/#retention
+  - title: "Risk Management"
+    url: /governance/risk-management/
+    children:
+      - title: "Dependency Management"
+        url: /governance/risk-management/#dependency
+      - title: "Business Continuity"
+        url: /governance/risk-management/#continuity
+      - title: "Fallback Procedures"
+        url: /governance/risk-management/#fallback
+
+# Implementation sidebar
+implementation:
+  - title: "Implementation Overview"
+    url: /implementation/
+  - title: "Cost Analysis"
+    url: /implementation/costs/
+    children:
+      - title: "Tool Costs"
+        url: /implementation/costs/#tool-costs
+      - title: "Infrastructure"
+        url: /implementation/costs/#infrastructure
+      - title: "Training"
+        url: /implementation/costs/#training
+  - title: "Success Metrics"
+    url: /implementation/metrics/
+    children:
+      - title: "ROI Framework"
+        url: /implementation/metrics/#roi
+      - title: "KPIs"
+        url: /implementation/metrics/#kpis
+      - title: "Benchmarking"
+        url: /implementation/metrics/#benchmarking
+  - title: "Technology Stack"
+    url: /implementation/tech-stack/
+    children:
+      - title: "Recommended Tools"
+        url: /implementation/tech-stack/#tools
+      - title: "Integration Strategy"
+        url: /implementation/tech-stack/#integration
+      - title: "Best Practices"
+        url: /implementation/tech-stack/#best-practices
+
+# Footer
+footer:
+  - title: "Quick Links"
+    children:
+      - title: "AI Tools Comparison"
+        url: /ai-tools/coding-assistants/
+      - title: "SDLC Overview"
+        url: /sdlc/
+      - title: "Implementation Guide"
+        url: /implementation/
+  - title: "Resources"
+    children:
+      - title: "GitHub Repository"
+        url: https://github.com/CodySwannGt/ai-native-sdlc
+      - title: "Documentation"
+        url: /docs/
+      - title: "API Reference"
+        url: /api/
+  - title: "Company"
+    children:
+      - title: "About"
+        url: /about/
+      - title: "Contact"
+        url: /contact/
+      - title: "Privacy Policy"
+        url: /privacy/
