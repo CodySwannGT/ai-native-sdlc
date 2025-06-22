@@ -47,8 +47,9 @@ end
 # gem "rouge", "~> 4.3"
 # gem "liquid", "~> 4.0"
 
-# Pin securerandom to work with Ruby 3.0
+# Pin dependencies to work with Ruby 3.0
 gem "securerandom", "~> 0.3.0"
+gem "activesupport", "~> 7.0.0"
 
 # Windows and JRuby compatibility
 platforms :mingw, :x64_mingw, :mswin, :jruby do

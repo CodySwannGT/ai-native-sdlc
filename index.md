@@ -1,5 +1,6 @@
 ---
-layout: home
+layout: single
+classes: wide
 title: "AI-Native Software Development Lifecycle"
 description: "A comprehensive guide to AI-powered software development, featuring detailed comparisons of AI coding assistants and enterprise implementation strategies"
 permalink: /
@@ -12,9 +13,7 @@ header:
       url: "/sdlc/"
     - label: "View AI Tools Comparison"
       url: "/ai-tools/coding-assistants/"
-excerpt: "Transform your software development process with AI-first methodologies, comprehensive tooling comparisons, and enterprise-ready implementation strategies."
-intro: 
-  - excerpt: 'Leveraging AI at every stage of the SDLC to maximize efficiency, quality, and innovation while maintaining enterprise-grade security and governance.'
+# Remove excerpt to avoid Jekyll 3.9.5 yaml_file? bug
 feature_row:
   - image_path: /assets/images/ai-tools-feature.jpg
     alt: "AI Tools Comparison"
