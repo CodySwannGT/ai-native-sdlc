@@ -21,7 +21,6 @@ vendor/
 /vendor/bundle
 /lib/bundler/man/
 .bundle/
-Gemfile.lock
 
 # RubyMine
 .idea/
