@@ -341,10 +341,10 @@ CREATE TABLE user_profiles (
 - **API Design**: Stoplight Studio (Free)
 
 ### Templates & Examples
-- [Mockup Templates](/templates/mockups)
-- [Architecture Patterns](/templates/architecture)
-- [API Contract Examples](/templates/api)
-- [Database Schema Patterns](/templates/database)
+- [Mockup Templates]({{ site.baseurl }}/templates/mockups)
+- [Architecture Patterns]({{ site.baseurl }}/templates/architecture)
+- [API Contract Examples]({{ site.baseurl }}/templates/api)
+- [Database Schema Patterns]({{ site.baseurl }}/templates/database)
 
 ## Next Steps
 
@@ -354,7 +354,7 @@ CREATE TABLE user_profiles (
 4. **Train Team**: Ensure design tool proficiency
 5. **Run Pilot**: Test with one feature
 
-Continue to [Phase 3: Development Planning & Implementation →](/sdlc/development/)
+Continue to [Phase 3: Development Planning & Implementation →]({{ site.baseurl }}/sdlc/development/)
 
 ---
 

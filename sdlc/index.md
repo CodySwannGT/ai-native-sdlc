@@ -30,7 +30,7 @@ graph LR
     style F fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
-### [Phase 1: Requirements Capture & Analysis](/sdlc/requirements/)
+### [Phase 1: Requirements Capture & Analysis]({{ site.baseurl }}/sdlc/requirements/)
 
 Transform stakeholder conversations into comprehensive documentation using AI.
 
@@ -51,7 +51,7 @@ Transform stakeholder conversations into comprehensive documentation using AI.
 - Acceptance criteria
 - Risk assessment
 
-### [Phase 1.5: Design Generation](/sdlc/design/)
+### [Phase 1.5: Design Generation]({{ site.baseurl }}/sdlc/design/)
 
 Convert requirements into visual mockups and technical designs.
 
@@ -72,7 +72,7 @@ Convert requirements into visual mockups and technical designs.
 - API specifications
 - Database schemas
 
-### [Phase 2: Story Creation & Task Breakdown](/sdlc/requirements/#story-creation)
+### [Phase 2: Story Creation & Task Breakdown]({{ site.baseurl }}/sdlc/requirements/#story-creation)
 
 Transform requirements into actionable development tasks.
 
@@ -93,7 +93,7 @@ Transform requirements into actionable development tasks.
 - Sprint backlog
 - Dependency mapping
 
-### [Phase 3: Development Planning & Implementation](/sdlc/development/)
+### [Phase 3: Development Planning & Implementation]({{ site.baseurl }}/sdlc/development/)
 
 AI-assisted coding with comprehensive guardrails.
 
@@ -115,7 +115,7 @@ AI-assisted coding with comprehensive guardrails.
 - API documentation
 - Code comments
 
-### [Phase 4: Quality Assurance & Deployment](/sdlc/deployment/)
+### [Phase 4: Quality Assurance & Deployment]({{ site.baseurl }}/sdlc/deployment/)
 
 Automated testing and deployment with AI-powered monitoring.
 
@@ -137,7 +137,7 @@ Automated testing and deployment with AI-powered monitoring.
 - Release notes
 - Performance metrics
 
-### [Phase 5: Production Monitoring & Continuous Improvement](/sdlc/deployment/#monitoring)
+### [Phase 5: Production Monitoring & Continuous Improvement]({{ site.baseurl }}/sdlc/deployment/#monitoring)
 
 Closed-loop monitoring with automated incident response.
 
@@ -171,7 +171,7 @@ Critical quality gates enforced throughout the lifecycle:
 | **Performance Tests** | Prevent degradation | Pre-deployment |
 | **Documentation** | Maintain clarity | With code changes |
 
-[View Complete Guardrails Table →](/sdlc/development/#ai-guardrails)
+[View Complete Guardrails Table →]({{ site.baseurl }}/sdlc/development/#ai-guardrails)
 
 ## Integration Points
 
@@ -260,15 +260,15 @@ Requirements → Design → Code → Tests → Deployment → Monitoring
 ## Next Steps
 
 1. **Review Individual Phases**:
-   - [Requirements & Analysis](/sdlc/requirements/)
-   - [Design Generation](/sdlc/design/)
-   - [Development & Implementation](/sdlc/development/)
-   - [Deployment & Monitoring](/sdlc/deployment/)
+   - [Requirements & Analysis]({{ site.baseurl }}/sdlc/requirements/)
+   - [Design Generation]({{ site.baseurl }}/sdlc/design/)
+   - [Development & Implementation]({{ site.baseurl }}/sdlc/development/)
+   - [Deployment & Monitoring]({{ site.baseurl }}/sdlc/deployment/)
 
 2. **Explore Supporting Topics**:
-   - [AI Tool Comparisons](/ai-tools/)
-   - [Governance Framework](/governance/)
-   - [Implementation Guide](/implementation/)
+   - [AI Tool Comparisons]({{ site.baseurl }}/ai-tools/)
+   - [Governance Framework]({{ site.baseurl }}/governance/)
+   - [Implementation Guide]({{ site.baseurl }}/implementation/)
 
 3. **Get Started**:
    - [Download Implementation Checklist](#)

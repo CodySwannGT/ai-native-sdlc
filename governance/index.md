@@ -64,25 +64,25 @@ Implementing AI-native development requires robust governance frameworks to ensu
 
 ## Key Governance Areas
 
-### [Security & Privacy](/governance/security/)
+### [Security & Privacy]({{ site.baseurl }}/governance/security/)
 - Data protection strategies
 - Client code safeguards
 - Technical security controls
 - Privacy compliance
 
-### [Compliance & Audit](/governance/compliance/)
+### [Compliance & Audit]({{ site.baseurl }}/governance/compliance/)
 - Regulatory requirements
 - Audit procedures
 - Documentation standards
 - Reporting frameworks
 
-### [Risk Management](/governance/risk-management/)
+### [Risk Management]({{ site.baseurl }}/governance/risk-management/)
 - Risk assessment methods
 - Mitigation strategies
 - Business continuity
 - Incident response
 
-### [Ethical AI](/governance/ethical-ai/)
+### [Ethical AI]({{ site.baseurl }}/governance/ethical-ai/)
 - Responsible AI principles
 - Bias prevention
 - Transparency requirements
@@ -116,10 +116,10 @@ Implementing AI-native development requires robust governance frameworks to ensu
 
 ## Resources
 
-- [Security Checklist](/governance/security-checklist/)
-- [Compliance Templates](/governance/templates/)
-- [Risk Register](/governance/risk-register/)
-- [Policy Examples](/governance/policies/)
+- [Security Checklist]({{ site.baseurl }}/governance/security-checklist/)
+- [Compliance Templates]({{ site.baseurl }}/governance/templates/)
+- [Risk Register]({{ site.baseurl }}/governance/risk-register/)
+- [Policy Examples]({{ site.baseurl }}/governance/policies/)
 
 ---
 

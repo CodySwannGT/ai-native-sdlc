@@ -68,14 +68,14 @@ This implementation guide provides a comprehensive roadmap for adopting AI-nativ
 
 ## Quick Links
 
-- [Cost Analysis](/implementation/costs/)
-- [Success Metrics](/implementation/metrics/)
-- [Technology Stack](/implementation/tech-stack/)
-- [Best Practices](/implementation/best-practices/)
+- [Cost Analysis]({{ site.baseurl }}/implementation/costs/)
+- [Success Metrics]({{ site.baseurl }}/implementation/metrics/)
+- [Technology Stack]({{ site.baseurl }}/implementation/tech-stack/)
+- [Best Practices]({{ site.baseurl }}/implementation/best-practices/)
 
 ## Getting Started
 
-Ready to begin your AI-native transformation? Start with our [assessment checklist](/implementation/assessment/) to evaluate your organization's readiness.
+Ready to begin your AI-native transformation? Start with our [assessment checklist]({{ site.baseurl }}/implementation/assessment/) to evaluate your organization's readiness.
 
 ---
 

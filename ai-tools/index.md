@@ -12,7 +12,7 @@ The AI-native software development lifecycle leverages multiple categories of AI
 
 ## Tool Categories
 
-### [AI Coding Assistants](/ai-tools/coding-assistants/)
+### [AI Coding Assistants]({{ site.baseurl }}/ai-tools/coding-assistants/)
 Compare 45+ AI coding assistants including GitHub Copilot, Cursor, Claude Code, and more. Our detailed comparison table evaluates:
 - Code completion and generation capabilities
 - Autonomous development features
@@ -22,7 +22,7 @@ Compare 45+ AI coding assistants including GitHub Copilot, Cursor, Claude Code, 
 
 **Top Picks**: Cursor, Claude Code, GitHub Copilot
 
-### [AI Transcription Software](/ai-tools/transcription/)
+### [AI Transcription Software]({{ site.baseurl }}/ai-tools/transcription/)
 Essential for capturing requirements and meeting notes with AI-powered insights:
 - Real-time transcription accuracy
 - Action item extraction
@@ -31,7 +31,7 @@ Essential for capturing requirements and meeting notes with AI-powered insights:
 
 **Top Picks**: Granola, Otter.ai, Fathom
 
-### [AI Design Software](/ai-tools/design-software/)
+### [AI Design Software]({{ site.baseurl }}/ai-tools/design-software/)
 Transform requirements into visual mockups with AI assistance:
 - Mockup generation from text descriptions
 - Design-to-code capabilities
@@ -159,14 +159,14 @@ When choosing AI tools for your organization, consider:
 ## Resources
 
 ### Getting Started
-- [AI Coding Assistants Comparison](/ai-tools/coding-assistants/)
-- [Implementation Guide](/implementation/)
-- [Security Best Practices](/governance/security/)
+- [AI Coding Assistants Comparison]({{ site.baseurl }}/ai-tools/coding-assistants/)
+- [Implementation Guide]({{ site.baseurl }}/implementation/)
+- [Security Best Practices]({{ site.baseurl }}/governance/security/)
 
 ### Advanced Topics
-- [Custom Model Training](/implementation/tech-stack/#custom-training)
-- [Enterprise Governance](/governance/)
-- [ROI Measurement](/implementation/metrics/)
+- [Custom Model Training]({{ site.baseurl }}/implementation/tech-stack/#custom-training)
+- [Enterprise Governance]({{ site.baseurl }}/governance/)
+- [ROI Measurement]({{ site.baseurl }}/implementation/metrics/)
 
 ### Community
 - [GitHub Discussions](https://github.com/CodySwannGt/ai-native-sdlc/discussions)

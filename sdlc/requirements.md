@@ -282,10 +282,10 @@ def create_jira_stories(stories, project_key):
 - **Project Management**: Jira or Linear ($8/user/month)
 
 ### Templates & Examples
-- [PRD Template](/templates/prd-template)
-- [User Story Examples](/templates/user-stories)
-- [Gap Analysis Checklist](/templates/gap-analysis)
-- [Integration Scripts](/templates/integrations)
+- [PRD Template]({{ site.baseurl }}/templates/prd-template)
+- [User Story Examples]({{ site.baseurl }}/templates/user-stories)
+- [Gap Analysis Checklist]({{ site.baseurl }}/templates/gap-analysis)
+- [Integration Scripts]({{ site.baseurl }}/templates/integrations)
 
 ## Next Steps
 
@@ -295,7 +295,7 @@ def create_jira_stories(stories, project_key):
 4. **Measure Results**: Track time savings and quality
 5. **Scale Up**: Roll out to all projects
 
-Continue to [Phase 1.5: Design Generation →](/sdlc/design/)
+Continue to [Phase 1.5: Design Generation →]({{ site.baseurl }}/sdlc/design/)
 
 ---
 

@@ -558,10 +558,10 @@ experiments:
 - **Testing**: Playwright, K6 (Free-$500/month)
 
 ### Templates & Examples
-- [CI/CD Templates](/templates/cicd)
-- [Monitoring Configs](/templates/monitoring)
-- [Deployment Scripts](/templates/deploy)
-- [Incident Playbooks](/templates/incidents)
+- [CI/CD Templates]({{ site.baseurl }}/templates/cicd)
+- [Monitoring Configs]({{ site.baseurl }}/templates/monitoring)
+- [Deployment Scripts]({{ site.baseurl }}/templates/deploy)
+- [Incident Playbooks]({{ site.baseurl }}/templates/incidents)
 
 ## Next Steps
 

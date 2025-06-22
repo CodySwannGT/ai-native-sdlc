@@ -50,19 +50,19 @@ The AI landscape changes rapidly. This resource is continuously updated to refle
 ## How to Use This Resource
 
 ### For Individual Developers
-- Start with the [AI Tools Comparison](/ai-tools/coding-assistants/)
+- Start with the [AI Tools Comparison]({{ site.baseurl }}/ai-tools/coding-assistants/)
 - Try free tools first
 - Focus on productivity gains
 
 ### For Team Leads
-- Review the [SDLC Methodology](/sdlc/)
+- Review the [SDLC Methodology]({{ site.baseurl }}/sdlc/)
 - Plan pilot programs
-- Use our [Implementation Guide](/implementation/)
+- Use our [Implementation Guide]({{ site.baseurl }}/implementation/)
 
 ### For Executives
-- Examine [ROI Metrics](/implementation/metrics/)
-- Review [Governance Frameworks](/governance/)
-- Consider [phased adoption](/implementation/#roadmap)
+- Examine [ROI Metrics]({{ site.baseurl }}/implementation/metrics/)
+- Review [Governance Frameworks]({{ site.baseurl }}/governance/)
+- Consider [phased adoption]({{ site.baseurl }}/implementation/#roadmap)
 
 ## Contributing
 

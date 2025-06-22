@@ -435,10 +435,10 @@ Include:
 - **Security**: Snyk, SonarQube ($32-98/month)
 
 ### Templates & Examples
-- [Code Templates](/templates/code)
-- [Test Patterns](/templates/tests)
-- [CI/CD Configs](/templates/cicd)
-- [Documentation Templates](/templates/docs)
+- [Code Templates]({{ site.baseurl }}/templates/code)
+- [Test Patterns]({{ site.baseurl }}/templates/tests)
+- [CI/CD Configs]({{ site.baseurl }}/templates/cicd)
+- [Documentation Templates]({{ site.baseurl }}/templates/docs)
 
 ## Next Steps
 
@@ -448,7 +448,7 @@ Include:
 4. **Train Team**: AI tool proficiency
 5. **Measure Impact**: Track metrics
 
-Continue to [Phase 4: Quality Assurance & Deployment →](/sdlc/deployment/)
+Continue to [Phase 4: Quality Assurance & Deployment →]({{ site.baseurl }}/sdlc/deployment/)
 
 ---
 
