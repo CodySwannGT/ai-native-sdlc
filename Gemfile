@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-titles-from-headings"
   gem "jekyll-default-layout"
   gem "jekyll-remote-theme"
+  gem "jekyll-github-metadata"
   # Not supported by GitHub Pages:
   # gem "jekyll-paginate-v2", "~> 3.0"
   # gem "jekyll-archives", "~> 2.2"
@@ -45,6 +46,9 @@ end
 # gem "kramdown-parser-gfm", "~> 1.1"
 # gem "rouge", "~> 4.3"
 # gem "liquid", "~> 4.0"
+
+# Pin securerandom to work with Ruby 3.0
+gem "securerandom", "~> 0.3.0"
 
 # Windows and JRuby compatibility
 platforms :mingw, :x64_mingw, :mswin, :jruby do
