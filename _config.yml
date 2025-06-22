@@ -249,16 +249,16 @@ toc:
   item_class: toc__entry
   item_prefix: toc-
 
-# Responsive Images
-responsive_image:
-  template: _includes/responsive-image.html
-  sizes:
-    - width: 320
-    - width: 480
-    - width: 768
-    - width: 1024
-  base_path: assets/images
-  output_path_format: assets/images/resized/%{width}/%{basename}
+# Responsive Images - Disabled (requires ImageMagick)
+# responsive_image:
+#   template: _includes/responsive-image.html
+#   sizes:
+#     - width: 320
+#     - width: 480
+#     - width: 768
+#     - width: 1024
+#   base_path: assets/images
+#   output_path_format: assets/images/resized/%{width}/%{basename}
 
 # Collections
 collections:

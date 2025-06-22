@@ -25,7 +25,7 @@ group :jekyll_plugins do
   gem "jekyll-toc", "~> 0.19"
   gem "jekyll-last-modified-at", "~> 1.3"
   gem "jekyll-minifier", "~> 0.1"
-  gem "jekyll-responsive-image", "~> 1.6"
+  # gem "jekyll-responsive-image", "~> 1.6" # Requires ImageMagick
 end
 
 # GitHub Pages deployment - commented out for now as it conflicts with Jekyll 4.3
