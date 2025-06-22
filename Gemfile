@@ -24,7 +24,7 @@ group :jekyll_plugins do
   gem "jekyll-algolia", "~> 1.7"
   gem "jekyll-toc", "~> 0.19"
   gem "jekyll-last-modified-at", "~> 1.3"
-  gem "jekyll-minifier", "~> 0.1"
+  # gem "jekyll-minifier", "~> 0.1" # Has issues with ES6
   # gem "jekyll-responsive-image", "~> 1.6" # Requires ImageMagick
 end
 
